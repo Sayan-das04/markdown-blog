@@ -1,5 +1,5 @@
 # markdown-blog
-📝# 📝 Markdown Blog  
+ 📝 Markdown Blog  
 A simple Markdown-based blogging platform built with **HTML**, **CSS**, and **JavaScript**.  
 Supports real-time preview, saving posts, editing, deleting, and dark mode.  
 
@@ -26,5 +26,6 @@ Supports real-time preview, saving posts, editing, deleting, and dark mode.
 ## 🚦 How to Run  
 1. **Clone the repository:**  
 ```bash
-git clone https://github.com/your-username/markdown-blog.git
+git clone https://github.com/Sayan-das04/markdown-blog.git
+
 
