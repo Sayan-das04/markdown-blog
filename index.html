@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Blog</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="navbar">
+        <h1>Markdown Blog</h1>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </div>
+    
+    <div class="container">
+        <textarea id="markdown-input" placeholder="Write your post in Markdown..."></textarea>
+        <div class="button-group">
+            <button id="preview-btn">Preview</button>
+            <button id="save-btn">Save Post</button>
+            <a href="posts.html" class="view-posts-btn">View Posts</a>
+        </div>
+        <h2>Preview:</h2>
+        <div id="preview"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
